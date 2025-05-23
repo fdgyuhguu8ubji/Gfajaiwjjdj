@@ -8,17 +8,17 @@ class Config(object):
     ##API_KEY get it from dev, dont edit if added
     API_KEY = os.environ.get("API_KEY", "No Need🤣🤣🤣🤣 Edited By Aryan Chaudhary ")
     #telegram user session str for 4gb limit
-    SESSION_STRING = os.environ.get("SESSION_STRING", "")
+    SESSION_STRING = os.environ.get("SESSION_STRING", "1BVtsOKEBu5oEgfB2oT4irQrOUG101RAVWmMomsZqa9P9qSwvKORwfkeSosR4i9R1r7Uhb7Esutzjf_345UgMMj8eCcaD26q7OOsKhOG0HA-YDaZLVNIW14zx5X68tujJ7IFLLzZ2LXmrt4nB6dVXTMprSujFfcwOZJEhdrtXXE61YkAbmMRj0-Z4ccDjLRz6WPZn3oVswnOyDSqzM07KzAhfEfXMrNO9BSeZrj8I-G0NLFCRbq2R2QoD9NK55iES1oHvOXKyBbfqmbjMR0DgoEl_86xZgaUFFucSyKIwLO3Ci1xE4wT8jNXhS1CSyvN23QcLL_59t62bOlIqdpFNATALm9zP3Ic=")
     #tg bot token
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7745982277:AAHtrFsZ5ABet6V2CmfYCVJAvqWlZAavbsg")
     #api id and hash get it from my.telegram.org
-    API_ID = int(os.environ.get("API_ID", ))
-    API_HASH = os.environ.get("API_HASH", "")
+    API_ID = int(os.environ.get("API_ID", "26910777"))
+    API_HASH = os.environ.get("API_HASH", "8601f2f24993f6fdbcbac3bb27ceec38")
     PROXY = os.environ.get("PROXY", "")
-    DB_URL = os.environ.get("DB_URL", "")
-    OWNER_ID = [int(i) for i in  os.environ.get("OWNER_ID", "").split(" ")]
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://King:Cobra765592@cluster0.qy4m5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    OWNER_ID = [int(i) for i in  os.environ.get("OWNER_ID", "5232142502").split(" ")]
     #log channel, where to send logs
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002259385936"))
     #gdrive folder id for upload
     GDRIVE_FOLDER_ID = os.environ.get("GDRIVE_FOLDER_ID", "1-geGQG9k7_idJ0876uDYqTe")
     #use service accounts or not, used to bypass daily upload limit
