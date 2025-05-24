@@ -74,8 +74,8 @@ CHECK_ONCE = []
 
 ST1 = [ 
     [
-        InlineKeyboardButton(text="Updates Channel", url="https://t.me/T_Y_Tricks"),
-        InlineKeyboardButton(text="Support Grp", url="https://t.me/+jqaBxdIiEt80NTY0")
+        InlineKeyboardButton(text="Updates Channel", url="https://t.me/ZPX_BOTS"),
+        InlineKeyboardButton(text="Support Grp", url="https://t.me/ZPXCG")
     ],
     [
         InlineKeyboardButton(f"About", callback_data="About"),
@@ -98,16 +98,16 @@ PLANS_TEXT = '''**Here You will find all of our Premium Plans:-**
     🟢 **Plan 2:-**
         **Plan Name:-** `Starter`
         **Price:- **
-              **USD:-** `9$`
-              **INR:-** `299₹`
+              **USD:-** `1$`
+              **INR:-** `70₹`
         **DRM Video Limit:-** `100 Videos`
         **validity:-** `30 days`
 
     🔵 **Plan 3:-**
         **Plan Name:-** `Standard`
         **Price:-** 
-              **USD:-** `13$`
-              **INR:-** `899₹`
+              **USD:-** `3$`
+              **INR:-** `200₹`
         **DRM Video Limit:-** `Unlimited Videos`
         **validity:-** `30 days`
 
@@ -120,7 +120,7 @@ PLANS_TEXT = '''**Here You will find all of our Premium Plans:-**
 Payment Method:- Binance
 For **INR:-** PhonePay, PayTm, UPI
 
-**Contact  @TY009X For Subscription**'''
+**Contact  @ZPXCG For Subscription**'''
 
 HELP_TEXT = """Here You can find all available Commands:-
     /start :- To start The Bot
@@ -143,9 +143,9 @@ ABOUT_TEXT = """**🄳🅁🄼 🄳🄾🅆🄽🄻🄾🄳🄴 🄱🄾🅃
   ➺ My Name  : Jio-HS Downloader Bot
   ➺ Version      :  `v1.0.0`
   ➺ Language  : `English`
-  ➺ Owner        : `TY`
+  ➺ Owner        : `ZPX`
   ➺ Release     : `India`
-  ➺ Developer  : @TY009X
+  ➺ Developer  : @ZPXCG
 
 ╚════════✧❁✧════════➩"""
 
@@ -156,7 +156,7 @@ async def filter_subscription(_, __, m):
     if chkUser:
         return True
     await mydb.add_user(m.from_user.id)
-    await m.reply_text("❎ You do not have a subscription\n\n📞 Contact us to buy a subscription [TY](https://t.me/TY009X)")
+    await m.reply_text("❎ You do not have a subscription\n\n📞 Contact us to buy a subscription [ZPX](https://t.me/ZPXCG)")
     return False
 
 static_auth_filter = filters.create(filter_subscription)
@@ -386,9 +386,9 @@ You can use me to Download DRM protected links to Telegram ⤵️
 
 Here I support Direct DRM links of Zee5, Hotstar etc..................
 
-I can also DRM protected links transloaded from @TY009X 
+I can also DRM protected links transloaded from @ZPXCG 
 
-If you found any issue please contact Support @TY009X**
+If you found any issue please contact Support @ZPXCG**
 
 
 **Bot Uptime:**  `{strftime("hours:%H minutes:%M and seconds:%S" , gmtime(time() - BOT_START_TIME))} ago`""", reply_markup=InlineKeyboardMarkup(ST1))
