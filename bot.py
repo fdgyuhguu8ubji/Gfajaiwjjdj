@@ -175,7 +175,7 @@ async def callback(_, cb: CallbackQuery):
     if cb.data == "plans":
        await cb.edit_message_text(text=PLANS_TEXT, reply_markup=InlineKeyboardMarkup(ST1), disable_web_page_preview=True)
     if cb.data == "ContactUs":
-       await cb.edit_message_text(text=f"**📞 Contact [TY](https://t.me/TY009X)**", reply_markup=InlineKeyboardMarkup(ST1), disable_web_page_preview=True)
+       await cb.edit_message_text(text=f"**📞 Contact [ZPX](https://t.me/ZPXCG)**", reply_markup=InlineKeyboardMarkup(ST1), disable_web_page_preview=True)
 
 
 @TGBot.on_message(filters.command("sub") & filters.user(Config.OWNER_ID))
@@ -191,7 +191,7 @@ async def tg_subget_Handler(bot: Client, message: Message):
 async def tg_subget_Handler(bot: Client, message: Message):
     await message.reply_text("""DRM Downloder Bot
 
- JIOHotstar 
+⭐️ JIOHotstar 
 """)
 
 async def filter_mode(_, __, m):
@@ -246,11 +246,11 @@ async def get_subscription(user_id):
 
 ⬆️ If you want to increase the subscription then see the plan now and contact us admin
 
-  **🥰 @TY009X Contact owner for updating subscription.**
+  **🥰 @ZPXCG Contact owner for updating subscription.**
 
                **Have a Nice day 😊** """
     else:
-        msg = "**Subscription details:**\n\n    **🎊 Current Plan:** `No Plan`\n          **Plan Name -** `Free`\n          **Is Premium -** `No`\n          **Task Limit -** `No Have`\n     **👑 user:** `Free User`\n     **🎦 videos:** `0 Video`\n     **⏳ expires:** `0 Days`\n\n**🥰 @TY009X Contact owner for updating subscription.**\n\n               **Have a Nice day 😊**"
+        msg = "**Subscription details:**\n\n    **🎊 Current Plan:** `No Plan`\n          **Plan Name -** `Free`\n          **Is Premium -** `No`\n          **Task Limit -** `No Have`\n     **👑 user:** `Free User`\n     **🎦 videos:** `0 Video`\n     **⏳ expires:** `0 Days`\n\n**🥰 @ZPXCG Contact owner for updating subscription.**\n\n               **Have a Nice day 😊**"
     return msg
 
 @TGBot.on_message(filters.command(["plans", "plan"]))
