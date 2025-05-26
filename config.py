@@ -14,7 +14,7 @@ class Config(object):
     #api id and hash get it from my.telegram.org
     API_ID = int(os.environ.get("API_ID", "26910777"))
     API_HASH = os.environ.get("API_HASH", "8601f2f24993f6fdbcbac3bb27ceec38")
-    PROXY = os.environ.get("PROXY", "122.252.234.123:1313")
+    PROXY = os.environ.get("PROXY", "103.124.173.209")
     DB_URL = os.environ.get("DB_URL", "mongodb+srv://King:Cobra765592@cluster0.qy4m5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     OWNER_ID = [int(i) for i in  os.environ.get("OWNER_ID", "5232142502").split(" ")]
     #log channel, where to send logs
