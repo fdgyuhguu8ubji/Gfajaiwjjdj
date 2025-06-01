@@ -138,16 +138,13 @@ HELP_TEXT = """Here You can find all available Commands:-
 Just send me any DRM links from supported sites to download That I can also Upload To Google Drive..."""
 
 
-ABOUT_TEXT = """**🄳🅁🄼 🄳🄾🅆🄽🄻🄾🄳🄴 🄱🄾🅃
+ABOUT_TEXT = """**Hi {mention} ! I am one and only DRM Downloader Bot on Telegram.
 
-  ➺ My Name  : Jio-HS Downloader Bot
-  ➺ Version      :  `v1.0.0`
-  ➺ Language  : `English`
-  ➺ Owner        : `ZPX`
-  ➺ Release     : `India`
-  ➺ Developer  : @ZPXCG
-
-╚════════✧❁✧════════➩"""
+My Name: JS-DRM-DL
+Library: Pyrogram 
+Language: Python 3.11.7 
+Developer: [ZPX](https://t.me/ZPXCG)
+Update Channel: [ZPX Bots] (https://t.me/ZPX_BOTS)"""
 
 async def filter_subscription(_, __, m):
     chkUser = await is_subscribed(m.from_user.id)
@@ -188,10 +185,7 @@ async def tg_subget_Handler(bot: Client, message: Message):
     await message.reply_text(msg_)
 
 @TGBot.on_message(filters.command(["ott", "otts"]))
-async def tg_subget_Handler(bot: Client, message: Message):
-    await message.reply_text("""DRM Downloder Bot
-
-⭐️ JIOHotstar 
+async def tg_subget_Handler(bot: sites to download That I can also Upload To Google Drive...
 """)
 
 async def filter_mode(_, __, m):
